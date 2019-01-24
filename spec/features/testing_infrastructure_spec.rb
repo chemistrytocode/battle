@@ -35,8 +35,7 @@ end
   feature 'Ok...' do
     scenario 'switch turns' do
       sign_in_and_play
-      click_button 'Attack!'
-      click_button 'Ok...'
+      attack_and_ok
       expect(page).to have_content ("Isabel's turn")
     end
   end
