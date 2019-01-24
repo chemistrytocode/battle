@@ -1,4 +1,4 @@
-****Battle App
+#Battle App
 
 As two Players,
 So we can play a personalised game of Battle,
